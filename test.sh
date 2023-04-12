@@ -7,9 +7,12 @@ echo "Hello world!"
 echo "I'm in $(pwd)"
 
 #conditionals
-petOne = "cat"
-petTwo = "dog"
-if [[petOne == petTwo]]; then
+petOne="cat"
+petTwo="dog"
+if [[ petOne == petTwo ]]; then
     echo "these two pets are the same"
 else 
     echo "these two pets are not the same"
+fi
+
+petTwo="cat"
