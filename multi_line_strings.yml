@@ -1,0 +1,10 @@
+#the pipe | symbol indicates it is a multi line string
+multilineString: |
+  this is a multiline string
+  and this is the next line
+  and next 
+
+#the crocodile symbol > indicates it is a single line string
+singlelineString: > 
+  this is a single line string
+  that should all be on one line
