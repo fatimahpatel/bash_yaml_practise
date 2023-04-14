@@ -1,0 +1,31 @@
+#spaces and indentations are important 
+#you get validation error if you have a space of data structure wrong
+
+#these are simple key: values pairs with different data types
+#string does not have quotes but you need to use it for spaces or with /n
+#below is an object that encloses all the attributes
+#the space must be exactly the same for each attribute within the object
+microservice:
+  app: user-authentication
+  port: 9000
+  version: 1.7
+
+#if you have a list of objects, you can use dash to indicate
+microservices:
+  - app: user-authentication
+    port: 9000
+    version: [1.9, 2.0, 2.1]
+    deployed: true
+
+  - app: shopping-cart
+    port: 9002
+    versions: 
+    - 1.9
+    - 2.0
+    - 2.1
+    deployed: true
+  
+microserviceNames:
+  - user-authentication
+  - shopping-cart
+
