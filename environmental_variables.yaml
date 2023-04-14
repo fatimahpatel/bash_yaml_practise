@@ -1,0 +1,10 @@
+#readiness probe
+#example of MySQL pod
+command:
+  - /bin/sh
+  - -ec
+  - >-
+    mysql -h 127.0.0.1 -u root -p$MYSQL_ROOT_PASSWORD -e 'SELECT 1'
+  #above we are executing a mySQL command 
+  #environ variable is the variable inside the pod
+  #use name of environ variable and dollar sign
