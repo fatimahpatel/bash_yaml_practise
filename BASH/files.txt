@@ -1,0 +1,7 @@
+examplescript.sh
+files.txt
+input.txt
+input_and_output.sh
+output.txt
+test.sh
+variables_and_datatypes.sh

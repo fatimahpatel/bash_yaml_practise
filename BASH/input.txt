@@ -1,0 +1,4 @@
+Hello
+This is a test
+To see if each line from this file
+Shows up on the terminal
